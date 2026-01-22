@@ -9,25 +9,25 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.teal,
       body: SafeArea(child:
       Column(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
             height: 200.0,
-            width: 200.0,
+            width: double.infinity,
             color: Colors.amber,
             child: Text("Hello",style: TextStyle(color: Colors.white, fontSize: 19.0),),
           ),
           Container(
             height: 200.0,
-            width: 200.0,
-            color: Colors.amber,
+            width: double.infinity,
+            color: Colors.brown,
             child: Text("Hello",style: TextStyle(color: Colors.white, fontSize: 19.0),),
           ),
           Container(
             height: 200.0,
-            width: 200.0,
-            color: Colors.amber,
+            width: double.infinity,
+            color: Colors.blueAccent,
             child: Text("Hello",style: TextStyle(color: Colors.white, fontSize: 19.0),),
           ),
         ],
