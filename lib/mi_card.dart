@@ -9,6 +9,8 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.teal,
       body: SafeArea(child:
       Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
             height: 200.0,
