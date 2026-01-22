@@ -14,7 +14,8 @@ class MiCard extends StatelessWidget {
               radius: 70.0,
               backgroundImage: AssetImage('images/Profile.png'),
             ),
-            Text('Meraj Uddin Malik')
+            Text('Meraj Uddin Malik', style: TextStyle(color: Colors.white),),
+            Text('Meraj Uddin Malik', style: TextStyle(color: Colors.white),)
           ],
         ),
       ),
