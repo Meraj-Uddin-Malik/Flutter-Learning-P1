@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:learning_flutter/challenge1.dart';
 import 'package:learning_flutter/mi_card.dart';
 
 void main() {
