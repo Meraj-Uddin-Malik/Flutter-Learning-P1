@@ -7,14 +7,29 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.teal,
-      body: Center(
-        child: SafeArea(child:
-        Container(
-          height: 200.0,
-          width: 200.0,
-          color: Colors.amber,
-          child: Text("Hello",style: TextStyle(color: Colors.white, fontSize: 19.0),),
-        ),),
+      body: SafeArea(child:
+      Column(
+        children: [
+          Container(
+            height: 200.0,
+            width: 200.0,
+            color: Colors.amber,
+            child: Text("Hello",style: TextStyle(color: Colors.white, fontSize: 19.0),),
+          ),
+          Container(
+            height: 200.0,
+            width: 200.0,
+            color: Colors.amber,
+            child: Text("Hello",style: TextStyle(color: Colors.white, fontSize: 19.0),),
+          ),
+          Container(
+            height: 200.0,
+            width: 200.0,
+            color: Colors.amber,
+            child: Text("Hello",style: TextStyle(color: Colors.white, fontSize: 19.0),),
+          ),
+        ],
+      ),
       )
     );
   }
