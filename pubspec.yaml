@@ -24,3 +24,8 @@ flutter:
 
   assets:
     - images/Profile.png
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico.ttf
