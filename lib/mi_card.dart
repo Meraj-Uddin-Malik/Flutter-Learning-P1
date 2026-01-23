@@ -33,6 +33,11 @@ class MiCard extends StatelessWidget {
                 letterSpacing: 1.0,
               ),
             ),
+            SizedBox(
+              height: 20.0,
+              width: 310.0,
+              child: Divider(color: Colors.white,),
+            ),
             Card(
               color: Colors.white,
               margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
