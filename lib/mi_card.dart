@@ -9,6 +9,7 @@ class MiCard extends StatelessWidget {
       backgroundColor: Colors.teal,
       body: SafeArea(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             CircleAvatar(
               radius: 70.0,
@@ -36,7 +37,7 @@ class MiCard extends StatelessWidget {
             SizedBox(
               height: 20.0,
               width: 310.0,
-              child: Divider(color: Colors.white,),
+              child: Divider(color: Colors.white),
             ),
             Card(
               color: Colors.white,
