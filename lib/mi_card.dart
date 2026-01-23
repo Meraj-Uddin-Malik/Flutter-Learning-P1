@@ -35,44 +35,31 @@ class MiCard extends StatelessWidget {
             ),
             Card(
               color: Colors.white,
-
               margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
-              child: Padding(
-                padding: EdgeInsets.all(10.0),
-                child: Row(
-                  children: [
-                    Icon(Icons.phone, color: Colors.teal, size: 20.0),
-                    SizedBox(width: 15.0),
-                    Text(
-                      "+92-300-2953-383",
-                      style: TextStyle(
-                        color: Colors.teal,
-                        fontFamily: 'OpenSans',
-                        fontSize: 15.0,
-                      ),
-                    ),
-                  ],
+              child: ListTile(
+                leading: Icon(Icons.phone, color: Colors.teal),
+                title: Text(
+                  "+92-300-3456-789",
+                  style: TextStyle(
+                    color: Colors.teal,
+                    fontFamily: 'OpenSans',
+                    fontSize: 15.0,
+                  ),
                 ),
               ),
             ),
             Card(
               color: Colors.white,
               margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
-              child: Padding(
-                padding: EdgeInsets.all(10.0),
-                child: Row(
-                  children: [
-                    Icon(Icons.email, color: Colors.teal, size: 20.0),
-                    SizedBox(width: 15.0),
-                    Text(
-                      "merajuddin618@gmail.com",
-                      style: TextStyle(
-                        color: Colors.teal,
-                        fontFamily: 'OpenSans',
-                        fontSize: 15.0,
-                      ),
-                    ),
-                  ],
+              child: ListTile(
+                leading: Icon(Icons.email, color: Colors.teal),
+                title: Text(
+                  "merajuddin618@gmail.com",
+                  style: TextStyle(
+                    color: Colors.teal,
+                    fontFamily: 'OpenSans',
+                    fontSize: 15.0,
+                  ),
                 ),
               ),
             ),
