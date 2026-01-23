@@ -29,7 +29,8 @@ class MiCard extends StatelessWidget {
               style: TextStyle(
                 color: Colors.white,
                 fontFamily: 'OpenSans',
-                fontSize: 20.0,
+                fontSize: 15.0,
+                letterSpacing: 1.0,
               ),
             ),
             Container(
@@ -57,10 +58,10 @@ class MiCard extends StatelessWidget {
               margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
               child: Row(
                 children: [
-                  Icon(Icons.phone, color: Colors.teal, size: 20.0),
+                  Icon(Icons.email, color: Colors.teal, size: 20.0),
                   SizedBox(width: 15.0),
                   Text(
-                    "+92-300-2953-383",
+                    "merajuddin618@gmail.com",
                     style: TextStyle(
                       color: Colors.teal,
                       fontFamily: 'OpenSans',
