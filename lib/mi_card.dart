@@ -25,11 +25,40 @@ class MiCard extends StatelessWidget {
               ),
             ),
             Text(
-              'Meraj Uddin Malik',
+              'Flutter Developer',
               style: TextStyle(
                 color: Colors.white,
-                fontFamily: 'Pacifico',
+                fontFamily: 'OpenSans',
                 fontSize: 20.0,
+              ),
+            ),
+            Container(
+              color: Colors.white,
+              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
+              child: Row(
+                children: [
+                  Icon(Icons.phone, color: Colors.teal, size: 20.0),
+                  SizedBox(width: 15.0),
+                  Text(
+                    "+92-300-2953-383",
+                    style: TextStyle(
+                      color: Colors.teal,
+                      fontFamily: 'OpenSans',
+                      fontSize: 15.0,
+                    ),
+                  ),
+
+                  // Icon(Icons.phone, color: Colors.white, size: 20.0),
+                  // SizedBox(width: 15.0,),
+                  // Text(
+                  //   "+92-300-2953-383",
+                  //   style: TextStyle(
+                  //     color: Colors.white,
+                  //     fontFamily: 'OpenSans',
+                  //     fontSize: 15.0,
+                  //   ),
+                  // ),
+                ],
               ),
             ),
           ],
