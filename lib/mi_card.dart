@@ -33,42 +33,47 @@ class MiCard extends StatelessWidget {
                 letterSpacing: 1.0,
               ),
             ),
-            Container(
+            Card(
               color: Colors.white,
-              padding: EdgeInsets.all(10.0),
+
               margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
-              child: Row(
-                children: [
-                  Icon(Icons.phone, color: Colors.teal, size: 20.0),
-                  SizedBox(width: 15.0),
-                  Text(
-                    "+92-300-2953-383",
-                    style: TextStyle(
-                      color: Colors.teal,
-                      fontFamily: 'OpenSans',
-                      fontSize: 15.0,
+              child: Padding(
+                padding: EdgeInsets.all(10.0),
+                child: Row(
+                  children: [
+                    Icon(Icons.phone, color: Colors.teal, size: 20.0),
+                    SizedBox(width: 15.0),
+                    Text(
+                      "+92-300-2953-383",
+                      style: TextStyle(
+                        color: Colors.teal,
+                        fontFamily: 'OpenSans',
+                        fontSize: 15.0,
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
-            Container(
+            Card(
               color: Colors.white,
-              padding: EdgeInsets.all(10.0),
               margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
-              child: Row(
-                children: [
-                  Icon(Icons.email, color: Colors.teal, size: 20.0),
-                  SizedBox(width: 15.0),
-                  Text(
-                    "merajuddin618@gmail.com",
-                    style: TextStyle(
-                      color: Colors.teal,
-                      fontFamily: 'OpenSans',
-                      fontSize: 15.0,
+              child: Padding(
+                padding: EdgeInsets.all(10.0),
+                child: Row(
+                  children: [
+                    Icon(Icons.email, color: Colors.teal, size: 20.0),
+                    SizedBox(width: 15.0),
+                    Text(
+                      "merajuddin618@gmail.com",
+                      style: TextStyle(
+                        color: Colors.teal,
+                        fontFamily: 'OpenSans',
+                        fontSize: 15.0,
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
           ],
