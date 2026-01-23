@@ -48,16 +48,16 @@ class MiCard extends StatelessWidget {
                     ),
                   ),
 
-                  Icon(Icons.phone, color: Colors.white, size: 20.0),
-                  SizedBox(width: 15.0,),
-                  Text(
-                    "+92-300-2953-383",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontFamily: 'OpenSans',
-                      fontSize: 15.0,
-                    ),
-                  ),
+                  // Icon(Icons.phone, color: Colors.white, size: 20.0),
+                  // SizedBox(width: 15.0,),
+                  // Text(
+                  //   "+92-300-2953-383",
+                  //   style: TextStyle(
+                  //     color: Colors.white,
+                  //     fontFamily: 'OpenSans',
+                  //     fontSize: 15.0,
+                  //   ),
+                  // ),white
                 ],
               ),
             ),
