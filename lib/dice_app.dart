@@ -13,11 +13,33 @@ class _DiceAppState extends State<DiceApp> {
     return Scaffold(
       backgroundColor: Colors.red,
       appBar: AppBar(title: Text("Dice Game App"), backgroundColor: Colors.red),
-      body: Row(
-        children: [
-          Expanded(child: Image.asset("images/dice1.png")),
-          Expanded(child: Image.asset("images/dice1.png")),
-        ],
+      body: Center(
+        child: Row(
+          children: [
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: TextButton(
+                  onPressed: () {
+                    print("Button Clicked");
+                  },
+                  child: Image.asset("images/dice1.png"),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: TextButton(
+                  onPressed: () {
+                    print("Button Clicked");
+                  },
+                  child: Image.asset("images/dice1.png"),
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
