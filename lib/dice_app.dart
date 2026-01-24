@@ -11,8 +11,14 @@ class _DiceAppState extends State<DiceApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red,
-      appBar: AppBar(title: Text("Dice Game App"), backgroundColor: Colors.red),
+      backgroundColor: Colors.purple,
+      appBar: AppBar(
+        title: Text("Dice Game App"),
+        titleTextStyle: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+        centerTitle: true,
+        elevation: 2.0,
+        backgroundColor: Colors.purple,
+      ),
       body: Center(
         child: Row(
           children: [
