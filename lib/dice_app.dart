@@ -15,12 +15,8 @@ class _DiceAppState extends State<DiceApp> {
       appBar: AppBar(title: Text("Dice Game App"), backgroundColor: Colors.red),
       body: Row(
         children: [
-          Expanded(
-              flex: 2,
-      child: Image(image: AssetImage("images/dice1.png"))),
-          Expanded(
-              flex: 1,
-              child: Image(image: AssetImage("images/dice1.png"))),
+          Expanded(child: Image.asset("images/dice1.png")),
+          Expanded(child: Image.asset("images/dice1.png")),
         ],
       ),
     );
