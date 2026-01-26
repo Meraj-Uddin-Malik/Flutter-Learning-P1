@@ -10,7 +10,7 @@ class DiceApp extends StatefulWidget {
 class _DiceAppState extends State<DiceApp> {
   @override
   Widget build(BuildContext context) {
-    var diceNumber = 3;
+    var leftDiceNumber = 1;
 
     return Scaffold(
       backgroundColor: Colors.purple,
@@ -29,9 +29,12 @@ class _DiceAppState extends State<DiceApp> {
                 padding: const EdgeInsets.all(16.0),
                 child: TextButton(
                   onPressed: () {
-                    print("Button Clicked");
+                    setState(() {
+                      leftDiceNumber = 5;
+                    });
+
                   },
-                  child: Image.asset("images/dice$diceNumber.png"),
+                  child: Image.asset("images/dice$leftDiceNumber.png"),
                 ),
               ),
             ),
@@ -40,9 +43,11 @@ class _DiceAppState extends State<DiceApp> {
                 padding: const EdgeInsets.all(16.0),
                 child: TextButton(
                   onPressed: () {
-                    print("Button Clicked");
+                    setState(() {
+                      leftDiceNumber = 3;
+                    });
                   },
-                  child: Image.asset("images/dice$diceNumber.png"),
+                  child: Image.asset("images/dice$leftDiceNumber.png"),
                 ),
               ),
             ),
