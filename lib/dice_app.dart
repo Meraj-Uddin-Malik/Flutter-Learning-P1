@@ -16,7 +16,7 @@ class _DiceAppState extends State<DiceApp> {
         title: Text("Dice Game App"),
         titleTextStyle: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
         centerTitle: true,
-        elevation: 2.0,
+        elevation: 1.0,
         backgroundColor: Colors.purple,
       ),
       body: Center(
