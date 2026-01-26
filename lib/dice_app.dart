@@ -8,10 +8,10 @@ class DiceApp extends StatefulWidget {
 }
 
 class _DiceAppState extends State<DiceApp> {
+  var leftDiceNumber = 1;
+
   @override
   Widget build(BuildContext context) {
-    var leftDiceNumber = 1;
-
     return Scaffold(
       backgroundColor: Colors.purple,
       appBar: AppBar(
@@ -32,7 +32,6 @@ class _DiceAppState extends State<DiceApp> {
                     setState(() {
                       leftDiceNumber = 5;
                     });
-
                   },
                   child: Image.asset("images/dice$leftDiceNumber.png"),
                 ),
