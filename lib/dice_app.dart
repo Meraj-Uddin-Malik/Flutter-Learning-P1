@@ -1,4 +1,6 @@
+import 'dart:math';
 import 'package:flutter/material.dart';
+
 
 class DiceApp extends StatefulWidget {
   const DiceApp({super.key});
@@ -30,7 +32,7 @@ class _DiceAppState extends State<DiceApp> {
                 child: TextButton(
                   onPressed: () {
                     setState(() {
-                      leftDiceNumber = 3;
+                      leftDiceNumber = Random().nextInt(6) + 1;
                     });
                   },
                   child: Image.asset("images/dice$leftDiceNumber.png"),
@@ -43,7 +45,7 @@ class _DiceAppState extends State<DiceApp> {
                 child: TextButton(
                   onPressed: () {
                     setState(() {
-                      leftDiceNumber = 2;
+                      leftDiceNumber = Random().nextInt(6) + 1;
                     });
                   },
                   child: Image.asset("images/dice$leftDiceNumber.png"),
