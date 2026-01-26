@@ -30,7 +30,7 @@ class _DiceAppState extends State<DiceApp> {
                 child: TextButton(
                   onPressed: () {
                     setState(() {
-                      leftDiceNumber = 5;
+                      leftDiceNumber = 3;
                     });
                   },
                   child: Image.asset("images/dice$leftDiceNumber.png"),
@@ -43,7 +43,7 @@ class _DiceAppState extends State<DiceApp> {
                 child: TextButton(
                   onPressed: () {
                     setState(() {
-                      leftDiceNumber = 3;
+                      leftDiceNumber = 2;
                     });
                   },
                   child: Image.asset("images/dice$leftDiceNumber.png"),
